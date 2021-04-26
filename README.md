@@ -74,3 +74,22 @@ This cut the board size down to 19mm (w) x 10mm (h)
 I know it doesn't sound like much, but it just looks a lot better.
 
 And it fits well onto breadboards. As a lower profile it is not in the way anymore as both the v1 and v2 iterations were sort of tall and would stick up enough to get knocked off the breadboard if you accidentally bumped it or wires got tugged across it.
+
+### Version 3.0
+
+Designed in Spring 2021
+
+Taking what I have learned since designing version 2.1:
+
+* There is no point in having a pulldown resistor on the base of the transistor. These are bipolar and do not need this pulldown like a MOSFET would.
+* The LED and transistors get kind of hot when pushing more than 5v into them.
+* The current through the LED is kind of high, about 20 mA each. We can use about 10 mA and get the same useful brightness.
+* The base resistor is too. For the amount of gain in the transitor, we are sinking more current into the transistor than we need to.
+* The lower base resistor causes the impedance of the amp to be lower, so some digital logic or IO ports become loaded more than what I had designed these self-buffering LED indicators to do for us.
+
+![v3 schematic](doc/v3_schematic.png)
+
+Here measuring the currents on the breadboard. The LED is held around 10 mA over a wider range of input voltages. The larger input resistor keeps the drive current down to around 0.1mA. Though it could be less, I just don't have the ability to measure current this small.
+
+Ordered some boards on OSH Park. Waiting for those to come in now.
+
