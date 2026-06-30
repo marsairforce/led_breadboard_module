@@ -1,6 +1,7 @@
 # A LED indicator module for breadboard development
 
-I became frustrated at having to repeat the boring work of finding parts and assembling status LED circuits for breadboard development.
+I became frustrated at having to repeat the boring work of finding parts
+and assembling status LED circuits for breadboard development.
 
 ## The Problem
 
@@ -18,13 +19,19 @@ As with any good effort, it can be improved upon.
 
 ### Version 1.0
 
-At the time, I was a student of the University of Manitoba. I wanted something that was easy to plug into the lab breadboards, use for the duration of the lab, and then take it home with me.
+At the time, I was a student of the University of Manitoba.
+I wanted something that was easy to plug into the lab breadboards,
+use for the duration of the lab, and then take it home with me.
 
 ![v1](doc/LED_module-01100356.jpg)
 
-This was a cordwood style construction, using perfboard. a 20 pin DIP socket, and 2x 74LS373 ICs. It supported two rows of 8 LEDs on the top. Where the LED and resistors were thru-hole style.
+This was a cordwood style construction, using perfboard. a 20 pin DIP socket,
+and 2x 74LS373 ICs. It supported two rows of 8 LEDs on the top. Where the LED
+and resistors were thru-hole style.
 
-The 3 mm round LED had to be filed to rectangle shape to allow them to fit closer together. And the resistors were assembled creatively as one of the leads so was also the mechanical support for the LEDs
+The 3 mm round LED had to be filed to rectangle shape to
+allow them to fit closer together. And the resistors were assembled creatively
+as one of the leads so was also the mechanical support for the LEDs
 
 It was novel at the time because we were able to have 16 individual status LEDs in the footprint of a 20 pin DIP socket on a breadboard. This would have been around the early 2000's. I have pictures of these somewhere and should dig them up sometime.
 
@@ -93,3 +100,4 @@ Here measuring the currents on the breadboard. The LED is held around 10 mA over
 
 Ordered some boards on OSH Park. Waiting for those to come in now.
 
+(Fast forward, somehow it is summer 2026. I have had the boards for years, moved. Everything was in storage. Dig out the parts. Trim mouse bites off boards.)
