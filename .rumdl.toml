@@ -1,0 +1,44 @@
+# rumdl configuration file
+
+# Global configurations can be set here.
+# By default, all rules are enabled.
+[global]
+# 'default': true in the JSON means all rules are on by default,
+# which is also rumdl's default behavior, so no action is needed here.
+
+# Rule-specific configurations are defined in their own tables.
+
+# MD003: Header style (atx)
+[MD003]
+style = "atx"
+
+# MD004: Unordered list style (consistent)
+[MD004]
+style = "consistent"
+
+# MD007: Unordered list indentation
+[MD007]
+indent = 2
+
+# MD013: Line length
+[MD013]
+line-length = 260
+# In rumdl, code_blocks is a boolean, not an option within line_length
+code-blocks = false
+tables = false # You might want to disable line checking for tables too
+
+# MD024: Multiple headings per section (siblings_only)
+[MD024]
+siblings-only = true
+allow_different_nesting = true
+
+# MD046: Code block style (fenced)
+[MD046]
+style = "fenced"
+
+# Disable specific rules globally if needed (equivalent to "rule-name": false in JSON)
+[rules]
+# "no-hard-tabs": false means you want to ignore MD010 (Hard tabs)
+ignore = ["MD010", "MD009"]
+# "whitespace": false broadly covers many rules, often MD009 (Trailing spaces)
+# and potentially others. You may need to list all the specific rule IDs you want to ignore here.
