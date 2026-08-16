@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 1.27
+          "drill": 1.0,
+          "height": 1.7,
+          "width": 1.7
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -140,9 +140,9 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0127,
+        "min_clearance": 0.127,
         "min_connection": 0.127,
-        "min_copper_edge_clearance": 0.5,
+        "min_copper_edge_clearance": 0.382,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.127,
         "min_hole_to_hole": 0.127,
@@ -155,7 +155,7 @@
         "min_through_hole_diameter": 0.254,
         "min_track_width": 0.127,
         "min_via_annular_width": 0.1016,
-        "min_via_diameter": 0.4572,
+        "min_via_diameter": 0.4527,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -488,7 +488,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "v3.kicad_pro",
+    "filename": "red_green.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -524,7 +524,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "output/",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
@@ -590,6 +590,18 @@
         },
         {
           "group_by": true,
+          "label": "Exclude from Simulation",
+          "name": "${EXCLUDE_FROM_SIM}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Exclude from Position Files",
+          "name": "${EXCLUDE_FROM_POS_FILES}",
+          "show": true
+        },
+        {
+          "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
           "show": true
@@ -644,17 +656,17 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "v3.kicad_sch",
+        "filename": "red_green.kicad_sch",
         "name": "Root",
-        "uuid": "07e56a14-447c-406a-a5f1-b07c2b73ac65"
+        "uuid": "eedc4273-d7ae-48bc-90a1-9356ebfd8fab"
       }
     ],
-    "used_designators": "#PWR1,R1-24,U1,Q1-24,D1-9",
+    "used_designators": "J1-2,R1-4,R21-24,Q1-6,Q18-23,C1,D1,D7",
     "variants": []
   },
   "sheets": [
     [
-      "07e56a14-447c-406a-a5f1-b07c2b73ac65",
+      "eedc4273-d7ae-48bc-90a1-9356ebfd8fab",
       "Root"
     ]
   ],

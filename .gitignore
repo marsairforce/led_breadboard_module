@@ -1,3 +1,7 @@
 *.kicad_pcb-bak
-*bak
+*.sch-bak
+*.bak
+*.lck
+*.kicad_prl
 .history
+plot/
