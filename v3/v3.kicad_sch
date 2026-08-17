@@ -8181,22 +8181,22 @@
 			)
 		)
 		(pin "6"
-			(uuid "a809950b-e134-4e92-8879-a8d0b75a952a")
+			(uuid "a809950b-e134-4e92-8879-a8d0b75a952b")
 		)
 		(pin "1"
-			(uuid "1b793098-17ac-47f3-9bd4-da474ed2a1f2")
+			(uuid "1b793098-17ac-47f3-9bd4-da474ed2a1f3")
 		)
 		(pin "2"
-			(uuid "d70e059a-2fdc-4aed-b887-90965406f437")
+			(uuid "d70e059a-2fdc-4aed-b887-90965406f438")
 		)
 		(pin "3"
-			(uuid "a7ed92fc-a788-49c6-9c22-ad92c083207d")
+			(uuid "a7ed92fc-a788-49c6-9c22-ad92c083207e")
 		)
 		(pin "4"
-			(uuid "560aa620-64b4-464f-a15c-a739df76469c")
+			(uuid "560aa620-64b4-464f-a15c-a739df76469d")
 		)
 		(pin "5"
-			(uuid "e19ff3e1-397c-4dd5-84ce-d78d698fefc1")
+			(uuid "e19ff3e1-397c-4dd5-84ce-d78d698fefc2")
 		)
 		(instances
 			(project "v3"
@@ -10690,6 +10690,29 @@
 					(unit 1)
 				)
 			)
+		)
+	)
+	(group "active high low side drive"
+		(uuid "3954a601-8a67-44b4-b21b-b5155c3f784a")
+		(lib_id "Library:active high low side drive")
+		(members "0058ba52-56b0-4a26-b7ad-2f30993545ff" "15593c06-860d-4986-9a6b-3a498e18a8cc"
+			"1acda42c-4335-45d2-84a2-672a6ebc1a97" "1b15c6ba-2d47-45b9-8725-1c0567308732"
+			"1e94fcd7-5fdc-4c8d-b243-d61b79c4e4ad" "26864a21-99ea-4c4c-93e9-4e21c7ec354f"
+			"283b05ff-f9bf-461a-bdb3-c617a159f49b" "2b8bb5b5-d5c5-4dbc-a223-ef5e5299fb17"
+			"2db21478-c7c8-4bf9-b265-95fa576cbb8c" "3007f87d-baf1-4f52-8be8-03c3d982f653"
+			"3400457a-b382-4852-bbd0-080b07f0f6d2" "34fff074-4812-40f7-a2cd-28b1c89a6b86"
+			"408f4a79-8cb7-4a2b-abdd-c8023d8680be" "438b30bc-8a89-4db9-a1cb-2c9276038345"
+			"43de42d0-6174-4f00-ac13-71df963daabc" "4c0c142e-605e-4231-9b72-b6f79d8e7114"
+			"5527e4f6-e83d-4582-b6a6-8846f8560cb1" "5cca34d8-e3fb-4e4b-8908-a5bfc4505447"
+			"641522e3-31d3-4d13-a723-003027c82000" "7354edea-4caa-4e7b-acf2-16cfd0f39243"
+			"748166ef-cf88-4273-8f8a-88f8dc719ac4" "764e4cbb-a28b-4a3e-b968-26bccf2e1500"
+			"832ddc85-d323-4074-867d-aa1036b083d7" "84b71e08-76e9-461e-8a2b-ca8087756eca"
+			"9791e59b-0918-40c1-a980-a0c856d823a0" "9c7edaee-12f9-478c-8f2e-45d1e0b4e457"
+			"a8b23691-5a6d-46ca-ac94-bc7566dc39c0" "aad41d26-d41a-4f1b-9ab4-8e7dada22d52"
+			"ab81f50c-a267-40d9-a3b4-fcdfb19f7f93" "cc6c6dfe-bdb9-4794-8fc7-0bc273acedd0"
+			"d1c9bd11-7aab-4cc2-b093-4dcc2fcee801" "dda48823-5cdc-48b2-a918-8f78d626343c"
+			"e941be09-8167-48cd-a94c-1b2d2b5a4859" "eb4c56a8-325d-44af-880d-fa8443d9ad18"
+			"f2f2a342-4c8b-4c66-b825-f284b88b67a7" "fa4faaf0-29c3-4ff1-b815-56af048099f0"
 		)
 	)
 	(sheet_instances

@@ -147,7 +147,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "output/")
+			(outputdirectory "plot/")
 		)
 	)
 	(footprint "Resistor_SMD:R_0603_1608Metric"
