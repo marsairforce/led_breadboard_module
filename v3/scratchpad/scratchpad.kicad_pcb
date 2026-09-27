@@ -153,7 +153,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/00000000-0000-0000-0000-000060871fdc")
 		(sheetname "/")
-		(sheetfile "v3.kicad_sch")
+		(sheetfile "scratchpad.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -350,7 +350,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-000060871fee")
 		(sheetname "/")
-		(sheetfile "v3.kicad_sch")
+		(sheetfile "scratchpad.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -496,7 +496,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-000060871ff4")
 		(sheetname "/")
-		(sheetfile "v3.kicad_sch")
+		(sheetfile "scratchpad.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -668,7 +668,7 @@
 		(property ki_fp_filters "SOT?23*")
 		(path "/00000000-0000-0000-0000-000060871fe8")
 		(sheetname "/")
-		(sheetfile "v3.kicad_sch")
+		(sheetfile "scratchpad.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1038,7 +1038,7 @@
 		(property ki_fp_filters "SOT?23*")
 		(path "/ee5eebb0-7654-43a1-a502-0d813ead953c")
 		(sheetname "/")
-		(sheetfile "v3.kicad_sch")
+		(sheetfile "scratchpad.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1434,7 +1434,7 @@
 		(property ki_fp_filters "SOT?23*")
 		(path "/00000000-0000-0000-0000-000060871fe2")
 		(sheetname "/")
-		(sheetfile "v3.kicad_sch")
+		(sheetfile "scratchpad.kicad_sch")
 		(units
 			(unit
 				(name "A")

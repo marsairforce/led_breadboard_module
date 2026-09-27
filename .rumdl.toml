@@ -22,7 +22,7 @@ indent = 2
 
 # MD013: Line length
 [MD013]
-line-length = 260
+line-length = 9999
 # In rumdl, code_blocks is a boolean, not an option within line_length
 code-blocks = false
 tables = false # You might want to disable line checking for tables too
@@ -31,6 +31,9 @@ tables = false # You might want to disable line checking for tables too
 [MD024]
 siblings-only = true
 allow_different_nesting = true
+
+[MD033]
+allowed_elements = [ "a", "span", "br", "img" ]
 
 # MD046: Code block style (fenced)
 [MD046]

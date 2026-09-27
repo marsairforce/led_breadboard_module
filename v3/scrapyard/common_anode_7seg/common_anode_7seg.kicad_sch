@@ -1,0 +1,120 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "f2d8228c-0569-4002-aa20-cc58bfc2c878")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 161.29 60.96)
+		(size 13.97 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "4a335c2f-826c-4a05-b5bd-39220c19210c")
+		(property "Sheetname" "pair"
+			(at 161.29 60.2484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pair.kicad_sch"
+			(at 161.29 74.2446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CTL_0" input
+			(at 161.29 66.04 180)
+			(uuid "e35f6ea0-3f51-4821-9a54-c5868459f1fc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CTL_1" input
+			(at 161.29 68.58 180)
+			(uuid "9053b575-a85a-49be-8210-a16bc01e764c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" input
+			(at 161.29 71.12 180)
+			(uuid "76084a66-b336-409c-9e06-4cba95b7784c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Q0" output
+			(at 175.26 66.04 0)
+			(uuid "47c7ce28-9299-4fb8-bde0-da58bfba6336")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Q1" output
+			(at 175.26 68.58 0)
+			(uuid "ff91a062-5f41-42c5-9924-5bd19389d291")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VIN" input
+			(at 161.29 63.5 180)
+			(uuid "bdf6bff9-eed6-4984-801b-0d804010bc00")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "common_anode_7seg"
+				(path "/f2d8228c-0569-4002-aa20-cc58bfc2c878"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
